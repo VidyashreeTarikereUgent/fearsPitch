@@ -14,11 +14,17 @@ I have developed a software application, To-Do Solid application, where data and
 
 In this application, I have inspected different ways one can store data in their data vaults, aka solid pods. 
 
-If person A wants to store each todo item in separate files or if she/he wants to store all the todo items in one single file or she/he wants to store todo items in multiple files, it is done by **sparql-update queries**. 
+If a person A wants to store data, example a todo, in their data vaults it can be stored in various ways. 
+
+The method I considered implementing is to put these data in different files and folders chosen by the user. 
+
+This method allows user to organise data in their data vaults in a structured way. 
+
+<!---  If person A wants to store each todo item in separate files or if she/he wants to store all the todo items in one single file or she/he wants to store todo items in multiple files, it is done by **sparql-update queries**. 
 
 For case 1, whenever a new todo is created, first, a new turtle file is generated and inside which the created todo is inserted. For case 2, all the todos created by the user just go to a fixed place inside the pod. 
 
-For case 3, the user is asked if he wants to put newly created todos inside an existing file or if she/he wants to create a new file to store the todos. Thus, this satisfies all the possible needs a user might have when he wants to manage the data on solid pods. 
+For case 3, the user is asked if he wants to put newly created todos inside an existing file or if she/he wants to create a new file to store the todos. Thus, this satisfies all the possible needs a user might have when he wants to manage the data on solid pods. -->
 
 As a researcher, it is always useful to determine what is the optimal way of storing data, especially in a decentralized environment, such that it will provide maximum results when reading and searching these data. 
 
